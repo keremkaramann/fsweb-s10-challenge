@@ -42,6 +42,7 @@ export function reducer(state = initialLocale, action) {
         ...state,
         notlar: state.notlar.filter((not) => not.id !== action.payload),
       };
+      localStorageStateYaz(s10chLocalStorageKey, removeState);
       return removeState;
     default:
       return state;
