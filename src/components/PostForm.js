@@ -6,7 +6,6 @@ import Gratitude from "./../assets/grForm.png";
 import { useDispatch } from "react-redux";
 import { notEkleAPI } from "../actions";
 import { toast } from "react-toastify";
-import { baslangicNotlariniGetir } from "../reducers";
 
 export default function PostForm() {
   const {
